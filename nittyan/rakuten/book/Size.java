@@ -18,8 +18,7 @@ public enum Size {
         this.size = size;
     }
 
-    @Override
-    public String toString() {
+    public String getName() {
         return this.size;
     }
 }

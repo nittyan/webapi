@@ -14,11 +14,13 @@ public interface Keys {
     public String CHIRAYOMI_URL = "chirayomiUrl";
     public String CONTENTS = "contents";
     public String COUNT = "count";
+    public String CYCLE = "cycle";
     public String DISCOUNT_PRICE = "discountPrice";
     public String DISCOUNT_RATE = "discountRate";
     public String ELEMENTS = "elements";
     public String FIRST = "first";
     public String FORMAT = "format";
+    public String GANRE_INFORMATION_FLAG = "genreInformationFlag";
     public String HITS = "hits";
     public String ISBN = "isbn";
     public String ITEM = "Item";
@@ -26,6 +28,7 @@ public interface Keys {
     public String ITEM_CAPTION = "itemCaption";
     public String ITEM_PRICE = "itemPrice";
     public String ITEM_URL = "itemUrl";
+    public String JAN = "jan";
     public String PAGE = "page";
     public String PAGE_COUNT = "pageCount";
     public String POSTAGE_FLAG = "postageFlag";

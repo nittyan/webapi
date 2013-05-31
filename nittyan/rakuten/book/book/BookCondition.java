@@ -1,17 +1,17 @@
-package nittyan.rakuten.book;
+package nittyan.rakuten.book.book;
 
-public class Condition implements nittyan.search.Condition {
-    public String affiliateId;
-    public String applicationId;
+import nittyan.rakuten.book.CommonCondition;
+import nittyan.rakuten.book.Size;
+import nittyan.rakuten.book.Sort;
+
+public class BookCondition extends CommonCondition {
     public int availability = 0;
     public String author;
     public String booksGenreId;
-    public String callback;
     public int carrier = 0;
     public int chirayomiFlag = 0;
 //    public String elements = "ALL";
     public String elements = "";
-    public Format format = Format.JSON;
     public int hits = 30;
     public String isbn;
     public int limitedFlag = 0;

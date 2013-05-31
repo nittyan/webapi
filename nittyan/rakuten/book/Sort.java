@@ -16,8 +16,7 @@ public enum Sort {
         this.name = name;
     }
 
-    @Override
-    public String toString() {
+    public String getName() {
         return this.name;
     }
 }

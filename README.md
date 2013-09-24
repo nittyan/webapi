@@ -6,11 +6,11 @@ AndroidŒü‚¯‚Ì‚³‚Ü‚´‚Ü‚ÈWebƒT[ƒrƒX‚ğŒÄ‚Ño‚·API‚ğ’ñ‹Ÿ‚µ‚Ü‚·B‚È‚é‚×‚­ŠO•”ƒ‰ƒCƒuƒ
 g‚¢•û
 --------
 ```
-import nittyan.rakuten.book.Condition;
-import nittyan.rakuten.book.RakutenSearcher;
-import nittyan.rakuten.book.BookSearchResult;
+import nittyan.rakuten.book.book.Condition;
+import nittyan.rakuten.book.book.BookSearcher;
+import nittyan.rakuten.book.book.BookSearchResult;
 
-RakutenSearcher searcher = new RakutenSearcher();
+BookSearcher searcher = new BookSearcher();
 Condition condition = new Condition();
 condition.applicationId = RAKUTEN_APP_ID;
 condition.isbn = "111111111";
